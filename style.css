@@ -1,0 +1,25 @@
+/* tanstephen.com
+Design by: Stephen Tan
+Copyright 2018 Stephen Tan, All rights reserved.*/
+
+body{
+	background-color: ##DCDCDC;
+	color: #343434;
+	font-family: 'Roboto', sans-serif;
+	font-size: 6.5vw;
+	text-align:center;
+}
+.row{
+	position: fixed;
+    left: 2.5vw;
+    top: 50%;
+    transform: translateY(-50%);
+	display: grid;
+	grid-template-columns: 6.8vw 6.8vw 6.8vw 6.8vw 6.8vw 6.8vw 6.8vw 6.8vw 6.8vw 6.8vw 6.8vw 6.8vw 6.8vw 6.8vw;
+	grid-template-rows: 7.4vw 7.4vw 7.4vw 7.4vw 7.4vw 7.4vw 7.4vw;
+}
+div.gray{
+	color: #808B96;
+}
+div.blue{
+	color: #85929E;}
